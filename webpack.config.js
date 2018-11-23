@@ -33,6 +33,7 @@ module.exports = {
         contentBase: contentBasePath,
         compress: true,
         hot: true,
+        host: "0.0.0.0",
         port: 9000
     }
 };
